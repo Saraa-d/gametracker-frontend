@@ -1,0 +1,124 @@
+.tarjeta-resena {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tarjeta-resena:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.resena-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.resena-info {
+  flex: 1;
+}
+
+.resena-titulo {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 8px 0;
+  color: #1f2937;
+}
+
+.resena-juego {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+}
+
+.resena-acciones {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-editar,
+.btn-eliminar {
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-editar {
+  background: #e0e7ff;
+  color: #4f46e5;
+}
+
+.btn-editar:hover {
+  background: #c7d2fe;
+}
+
+.btn-eliminar {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.btn-eliminar:hover {
+  background: #fecaca;
+}
+
+.resena-puntuacion {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.puntuacion-texto {
+  font-weight: 600;
+  color: #374151;
+  margin-left: 4px;
+}
+
+.resena-contenido {
+  color: #4b5563;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  white-space: pre-wrap;
+}
+
+.resena-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  border-top: 1px solid #e5e7eb;
+}
+
+.resena-fecha {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #6b7280;
+  font-size: 14px;
+}
+.btn-editar {
+  background: var(--rosa-claro);
+  color: var(--vinotinto);
+}
+
+.btn-editar:hover {
+  background: var(--rosa-medio);
+}
+
+.btn-eliminar {
+  background: #fee2e2;
+  color: var(--vinotinto-oscuro);
+}
+
+.btn-eliminar:hover {
+  background: #fecaca;
+}
