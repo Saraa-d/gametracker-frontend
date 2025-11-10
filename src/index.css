@@ -1,0 +1,40 @@
+:root {
+  /* Paleta de colores personalizada */
+  --rosa-claro: #fce7f3;
+  --rosa-medio: #fbcfe8;
+  --rosa-fuerte: #f9a8d4;
+  --rosa-vibrante: #ec4899;
+  
+  --vinotinto-claro: #be185d;
+  --vinotinto: #9f1239;
+  --vinotinto-oscuro: #881337;
+  
+  --blanco: #ffffff;
+  --gris-claro: #f3f4f6;
+  --gris-medio: #6b7280;
+  --gris-oscuro: #374151;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, var(--rosa-claro) 0%, var(--rosa-medio) 50%, var(--vinotinto-claro) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+}
