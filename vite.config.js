@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/gametracker-frontend/', // ← Agrega esta línea
   server: {
     port: 3000,
     proxy: {

@@ -154,7 +154,7 @@ const Estadisticas = () => {
             {renderBarraProgreso(
               stats.juegosPorEstado.jugando, 
               stats.totalJuegos, 
-              'linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)'
+              'linear-gradient(135deg, #ff6ea3ff 0%, #d81d68ff 100%)'
             )}
           </div>
 
@@ -166,7 +166,7 @@ const Estadisticas = () => {
             {renderBarraProgreso(
               stats.juegosPorEstado.completados, 
               stats.totalJuegos, 
-              'linear-gradient(135deg, #10b981 0%, #059669 100%)'
+              'linear-gradient(135deg, #b9104bff 0%, #960557ff 100%)'
             )}
           </div>
 
@@ -178,7 +178,7 @@ const Estadisticas = () => {
             {renderBarraProgreso(
               stats.juegosPorEstado.pendientes, 
               stats.totalJuegos, 
-              'linear-gradient(135deg, #f59e0b 0%, #d97706 100%)'
+              'linear-gradient(135deg, #ff8eccff 0%, #ea74b5ff 100%)'
             )}
           </div>
 
@@ -190,7 +190,7 @@ const Estadisticas = () => {
             {renderBarraProgreso(
               stats.juegosPorEstado.abandonados, 
               stats.totalJuegos, 
-              'linear-gradient(135deg, #ef4444 0%, #dc2626 100%)'
+              'linear-gradient(135deg, #db2a77ff 0%, #ef93b7ff 100%)'
             )}
           </div>
         </div>
